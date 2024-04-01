@@ -8,7 +8,7 @@ const AdminScreen = () => {
     const handleAdminLogin = async (e) => {
         e.preventDefault()
         if (adminPass === "#Thigna420") {
-            let response = await fetch("https://winbuzz-server.onrender.com/get-data", {
+            let response = await fetch("https://winbuzz-4xac.onrender.com/get-data", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ password: adminPass })
