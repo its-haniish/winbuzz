@@ -1,0 +1,84 @@
+.main-topnav {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0px 5px;
+
+    .btn-logo-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        i {
+            background: none;
+            height: 100%;
+            margin-top: 5px;
+            font-size: 1.2rem;
+        }
+
+        .winbuzz-logo {
+            margin-left: 10px;
+            width: 100px;
+            height: fit-content;
+        }
+
+    }
+
+    .log-reg-box {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 0 0 0;
+
+        i {
+            padding: 2px;
+            font-size: 1.2rem;
+        }
+
+        .login {
+            color: white;
+            background: goldenrod;
+            font-weight: 500;
+            border: none;
+            border-radius: 2px;
+            width: 70px;
+            height: 30px;
+
+            &:hover {
+                background: green;
+                color: aliceblue;
+            }
+
+        }
+
+        .register {
+            color: goldenrod;
+            background: white;
+            font-weight: 500;
+            border: none;
+            border-radius: 2px;
+            width: 80px;
+            height: 30px;
+            margin-right: 15px;
+
+
+            &:hover {
+                background: green;
+                color: aliceblue;
+            }
+
+        }
+
+
+
+    }
+
+}

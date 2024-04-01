@@ -1,0 +1,78 @@
+.admin-main {
+    width: 100vw;
+    height: 100vh;
+    background: grey;
+
+    .admin-list-main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .admin-list-item {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            align-items: center;
+            width: 80%;
+
+            .admin-item-name {}
+
+            .admin-item-pass {}
+        }
+
+    }
+
+    .admin-form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+
+        h1 {
+            font-size: 2rem;
+            background: linear-gradient(blue, blueviolet, red);
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        .admin-submit {
+            background: blue;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            padding: 5px 10px;
+            width: fit-content;
+            height: fit-content;
+
+            &:hover {
+                background: rgb(47, 47, 198);
+            }
+        }
+
+        .admin-pass {
+            padding: 3px 20px;
+            background: grey;
+            border-radius: 10px;
+            border: none;
+            border-bottom: 2px solid blue;
+            color: black;
+            text-align: center;
+            caret-color: blueviolet;
+            font-size: 1.3rem;
+
+            &::placeholder {
+                color: rgb(59, 47, 47);
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

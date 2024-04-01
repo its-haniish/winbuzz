@@ -1,0 +1,49 @@
+.bottom-nav-main {
+    position: fixed;
+    background: #000;
+    width: 100vw;
+    height: 6.5vh;
+    bottom: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 17%;
+
+
+    .bot-nav-box-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .bot-nav-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .bot-nav-box-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .bot-nav-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+}
